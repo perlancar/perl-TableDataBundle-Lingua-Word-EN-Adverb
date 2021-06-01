@@ -1,4 +1,4 @@
-package Tables::Words::EN::Adverbs::TalkEnglish;
+package TableData::Lingua::Word::EN::Adverb::TalkEnglish;
 
 # AUTHORITY
 # DATE
@@ -6,7 +6,7 @@ package Tables::Words::EN::Adverbs::TalkEnglish;
 # VERSION
 
 use Role::Tiny::With;
-with 'TablesRole::Source::CSVDATA';
+with 'TableDataRole::Source::CSVInDATA';
 
 1;
 # ABSTRACT: List of words that are used as adverbs only, from talkenglish.com
@@ -15,12 +15,12 @@ with 'TablesRole::Source::CSVDATA';
 
 L<https://www.talkenglish.com/vocabulary/top-250-adverbs.aspx>
 
-L<Tables::Words::EN::Nouns::TalkEnglish>,
-L<Tables::Words::EN::Adjectives::TalkEnglish>
+L<TableData::Lingua::Word::EN::Noun::TalkEnglish>,
+L<TableData::Lingua::Word::EN::Adjective::TalkEnglish>
 
-Other C<Tables::Words::EN::Adverbs::*> modules.
+Other C<TableData::Lingua::Word::EN::Adverb::*> modules.
 
-L<Tables>
+L<TableData>
 
 =cut
 
